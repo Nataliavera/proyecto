@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+	font-family: 'PT Sans', sans-serif;
+	box-sizing: border-box;
+}
+body {
+	background: linear-gradient(90deg, hsla(239, 94%, 14%, 1) 0%, hsla(190, 68%, 50%, 1) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: block;
+	border: none;
+	border-bottom: 3px solid #848f9a;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+	font-size: 20px;
+}
+input:focus{
+	outline: none;
+	border-color: #28b8d5;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+button {
+	width: 40%;
+	height: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	float: right;
+	background: #020344;
+	padding: 10px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	background: linear-gradient(90deg, hsla(239, 94%, 14%, 1) 0%, hsla(190, 68%, 50%, 1) 100%);
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #dd2b28;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 70px;
+}
+
+.ca {
+	font-size: 15px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #333;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
+.home-nav a {
+	margin: 20px;
+	padding: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	margin-bottom: 50px;
+}
